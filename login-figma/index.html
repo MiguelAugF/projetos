@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Figma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div id="header">
+            <p>Welcome Back</p>
+            <h1>Login Into Your Account</h1>
+        </div>
+        <div id="input-field">
+            <form action="login.php" autocomplete="on">
+                <label for="email">E-Mail Or Username</label>
+                <input type="email" name="email" id="email" required placeholder="test@test.com" autocomplete="email"><br>
+                <label for="password" id="pass">Password</label>
+                <a href="#" id="password">Forgot Password?</a>
+                <input type="password" name="password" id="password" required placeholder="Password" autocomplete="current-password">
+            </form>
+        </div>
+        <div id="buttons">
+            <button type="submit">Login</button>
+            <p id="user">New User? <a href="#" id="create">Create Account</a></p>
+        </div>
+    </section>
+</body>
+</html>

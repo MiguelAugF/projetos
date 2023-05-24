@@ -77,6 +77,11 @@ button{
     font-size: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transition-duration: 0.09s;
+    background-color: #0a2a9c;
 }
 p#user, a#create{
     color: #FFF;
@@ -89,5 +94,8 @@ p#user{
     section{
         width: 350px;
         height: 400px;
+    }
+    label#pass{
+        padding-right: 53%;
     }
 }

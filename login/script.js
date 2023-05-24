@@ -11,7 +11,6 @@ function execute(){
         document.body.style.backgroundPosition = 'bottom bottom'
         button.style.border = '1px solid #C2E15C'
         submit.style.backgroundColor = '#C2E15C'
-        const changeButtonHoverColor = () => button.setAttribute("modified","1")
     }else if(hours >= 12 && hours <18){
         img.style.backgroundImage = 'url(images/tarde.jpg)'
         img.style.backgroundPosition = 'center center'
